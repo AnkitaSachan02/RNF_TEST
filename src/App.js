@@ -22,7 +22,7 @@ class App extends Component {
     var currentLocation = this.props.location.pathname;
     const { loginUser } = store.getState();
     if(currentLocation === "/"){
-     console.log("User is visiting home page...");
+     console.log("user is visiting home page...");
     }
     return (
       <div className="App">
